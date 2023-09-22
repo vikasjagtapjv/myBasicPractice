@@ -1,0 +1,385 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "servlet": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "servlet-name": {
+              "type": "string"
+            },
+            "servlet-class": {
+              "type": "string"
+            },
+            "init-param": {
+              "type": "object",
+              "properties": {
+                "configGlossary:installationAt": {
+                  "type": "string"
+                },
+                "configGlossary:adminEmail": {
+                  "type": "string"
+                },
+                "configGlossary:poweredBy": {
+                  "type": "string"
+                },
+                "configGlossary:poweredByIcon": {
+                  "type": "string"
+                },
+                "configGlossary:staticPath": {
+                  "type": "string"
+                },
+                "templateProcessorClass": {
+                  "type": "string"
+                },
+                "templateLoaderClass": {
+                  "type": "string"
+                },
+                "templatePath": {
+                  "type": "string"
+                },
+                "templateOverridePath": {
+                  "type": "string"
+                },
+                "defaultListTemplate": {
+                  "type": "string"
+                },
+                "defaultFileTemplate": {
+                  "type": "string"
+                },
+                "useJSP": {
+                  "type": "boolean"
+                },
+                "jspListTemplate": {
+                  "type": "string"
+                },
+                "jspFileTemplate": {
+                  "type": "string"
+                },
+                "cachePackageTagsTrack": {
+                  "type": "integer"
+                },
+                "cachePackageTagsStore": {
+                  "type": "integer"
+                },
+                "cachePackageTagsRefresh": {
+                  "type": "integer"
+                },
+                "cacheTemplatesTrack": {
+                  "type": "integer"
+                },
+                "cacheTemplatesStore": {
+                  "type": "integer"
+                },
+                "cacheTemplatesRefresh": {
+                  "type": "integer"
+                },
+                "cachePagesTrack": {
+                  "type": "integer"
+                },
+                "cachePagesStore": {
+                  "type": "integer"
+                },
+                "cachePagesRefresh": {
+                  "type": "integer"
+                },
+                "cachePagesDirtyRead": {
+                  "type": "integer"
+                },
+                "searchEngineListTemplate": {
+                  "type": "string"
+                },
+                "searchEngineFileTemplate": {
+                  "type": "string"
+                },
+                "searchEngineRobotsDb": {
+                  "type": "string"
+                },
+                "useDataStore": {
+                  "type": "boolean"
+                },
+                "dataStoreClass": {
+                  "type": "string"
+                },
+                "redirectionClass": {
+                  "type": "string"
+                },
+                "dataStoreName": {
+                  "type": "string"
+                },
+                "dataStoreDriver": {
+                  "type": "string"
+                },
+                "dataStoreUrl": {
+                  "type": "string"
+                },
+                "dataStoreUser": {
+                  "type": "string"
+                },
+                "dataStorePassword": {
+                  "type": "string"
+                },
+                "dataStoreTestQuery": {
+                  "type": "string"
+                },
+                "dataStoreLogFile": {
+                  "type": "string"
+                },
+                "dataStoreInitConns": {
+                  "type": "integer"
+                },
+                "dataStoreMaxConns": {
+                  "type": "integer"
+                },
+                "dataStoreConnUsageLimit": {
+                  "type": "integer"
+                },
+                "dataStoreLogLevel": {
+                  "type": "string"
+                },
+                "maxUrlLength": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "configGlossary:installationAt",
+                "configGlossary:adminEmail",
+                "configGlossary:poweredBy",
+                "configGlossary:poweredByIcon",
+                "configGlossary:staticPath",
+                "templateProcessorClass",
+                "templateLoaderClass",
+                "templatePath",
+                "templateOverridePath",
+                "defaultListTemplate",
+                "defaultFileTemplate",
+                "useJSP",
+                "jspListTemplate",
+                "jspFileTemplate",
+                "cachePackageTagsTrack",
+                "cachePackageTagsStore",
+                "cachePackageTagsRefresh",
+                "cacheTemplatesTrack",
+                "cacheTemplatesStore",
+                "cacheTemplatesRefresh",
+                "cachePagesTrack",
+                "cachePagesStore",
+                "cachePagesRefresh",
+                "cachePagesDirtyRead",
+                "searchEngineListTemplate",
+                "searchEngineFileTemplate",
+                "searchEngineRobotsDb",
+                "useDataStore",
+                "dataStoreClass",
+                "redirectionClass",
+                "dataStoreName",
+                "dataStoreDriver",
+                "dataStoreUrl",
+                "dataStoreUser",
+                "dataStorePassword",
+                "dataStoreTestQuery",
+                "dataStoreLogFile",
+                "dataStoreInitConns",
+                "dataStoreMaxConns",
+                "dataStoreConnUsageLimit",
+                "dataStoreLogLevel",
+                "maxUrlLength"
+              ]
+            }
+          },
+          "required": [
+            "servlet-name",
+            "servlet-class",
+            "init-param"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "servlet-name": {
+              "type": "string"
+            },
+            "servlet-class": {
+              "type": "string"
+            },
+            "init-param": {
+              "type": "object",
+              "properties": {
+                "mailHost": {
+                  "type": "string"
+                },
+                "mailHostOverride": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "mailHost",
+                "mailHostOverride"
+              ]
+            }
+          },
+          "required": [
+            "servlet-name",
+            "servlet-class",
+            "init-param"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "servlet-name": {
+              "type": "string"
+            },
+            "servlet-class": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "servlet-name",
+            "servlet-class"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "servlet-name": {
+              "type": "string"
+            },
+            "servlet-class": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "servlet-name",
+            "servlet-class"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "servlet-name": {
+              "type": "string"
+            },
+            "servlet-class": {
+              "type": "string"
+            },
+            "init-param": {
+              "type": "object",
+              "properties": {
+                "templatePath": {
+                  "type": "string"
+                },
+                "log": {
+                  "type": "integer"
+                },
+                "logLocation": {
+                  "type": "string"
+                },
+                "logMaxSize": {
+                  "type": "string"
+                },
+                "dataLog": {
+                  "type": "integer"
+                },
+                "dataLogLocation": {
+                  "type": "string"
+                },
+                "dataLogMaxSize": {
+                  "type": "string"
+                },
+                "removePageCache": {
+                  "type": "string"
+                },
+                "removeTemplateCache": {
+                  "type": "string"
+                },
+                "fileTransferFolder": {
+                  "type": "string"
+                },
+                "lookInContext": {
+                  "type": "integer"
+                },
+                "adminGroupID": {
+                  "type": "integer"
+                },
+                "betaServer": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "templatePath",
+                "log",
+                "logLocation",
+                "logMaxSize",
+                "dataLog",
+                "dataLogLocation",
+                "dataLogMaxSize",
+                "removePageCache",
+                "removeTemplateCache",
+                "fileTransferFolder",
+                "lookInContext",
+                "adminGroupID",
+                "betaServer"
+              ]
+            }
+          },
+          "required": [
+            "servlet-name",
+            "servlet-class",
+            "init-param"
+          ]
+        }
+      ]
+    },
+    "servlet-mapping": {
+      "type": "object",
+      "properties": {
+        "cofaxCDS": {
+          "type": "string"
+        },
+        "cofaxEmail": {
+          "type": "string"
+        },
+        "cofaxAdmin": {
+          "type": "string"
+        },
+        "fileServlet": {
+          "type": "string"
+        },
+        "cofaxTools": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cofaxCDS",
+        "cofaxEmail",
+        "cofaxAdmin",
+        "fileServlet",
+        "cofaxTools"
+      ]
+    },
+    "taglib": {
+      "type": "object",
+      "properties": {
+        "taglib-uri": {
+          "type": "string"
+        },
+        "taglib-location": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "taglib-uri",
+        "taglib-location"
+      ]
+    }
+  },
+  "required": [
+    "servlet",
+    "servlet-mapping",
+    "taglib"
+  ]
+}
