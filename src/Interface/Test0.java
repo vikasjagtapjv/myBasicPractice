@@ -30,5 +30,20 @@ public interface Test0 {
 	public abstract void test1();
 	public abstract void test2();
 	public abstract void test3();
+	
+	default void test4()
+	{
+		System.out.println("this is default method ");
+	}
+	static void test5()
+	{
+		System.out.println("this is static methid");
+		
+	}
+//	private void test6()
+//	{
+//		System.out.println("this is private method");
+//	}
+//	
 
 }

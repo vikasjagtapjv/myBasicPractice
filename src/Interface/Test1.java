@@ -24,6 +24,8 @@ public class Test1 implements Test0 {
 		t.test1();
 		t.test2();
 		t.test3();
+		t.test4();
+		Test0.test5();
 	}
 	
 	

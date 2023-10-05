@@ -86,5 +86,22 @@ public class Count_Vowels {
 		}
 		System.out.println(count);
 	}
+	@Test(priority=5)
+	public void test5()
+	{
+		String s="hi hello how are you";
+		int count=0;
+		s.toLowerCase();
+		for (int i=0;i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+			{
+				count++;
+				System.out.println(" "+c+" ");
+			}
+		}
+		System.out.println(count);
+	}
 
 }

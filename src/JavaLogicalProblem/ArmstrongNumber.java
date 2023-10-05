@@ -261,6 +261,73 @@ public class ArmstrongNumber {
 		}
 		
 	}
+	@Test(priority=12)
+	public void test12() {
+		int num=153;
+		int orgNum=num;
+		int reverse=0,reminder;
+		while(num>0)
+		{
+			reminder=num%10;
+			reverse=(reminder*reminder*reminder)+reverse;
+			num=num/10;
+		}
+		if (orgNum==reverse)
+		{
+			System.out.println("Armstrong");
+		}
+		else
+		{
+			System.out.println("not armstrong");
+		}
+	}
+	@Test(priority=13)
+	public void test13()
+	{
+		int num=153;
+		int orgNum=num;
+		int reverse=0,reminder;
+		while(num>0)
+		{
+			reminder=num%10;
+			reverse=(reminder*reminder*reminder)+reverse;
+			num=num/10;
+			
+			
+		}
+		if(orgNum==reverse)
+		{
+			System.out.println(orgNum+ " number is armstrong13");
+		}
+		else
+		{
+			System.out.println(orgNum+ " number is not armstrong 13");
+		}
+	}
+	@Test(priority=14)
+	public void magic()
+	{
+		int num=235;
+		while(num>9)
+		{
+			int sum=0;
+			while(num>0)
+			{
+				int r=num%10;//5,3,2 second condition 0,1
+				sum=sum+r;//5,8,10,second condition 0,1
+				num=num/10;//23,2,0,second condition 1,0
+			}
+			num=sum;//first condition=10,second condition =1
+		}
+		if(num==1)
+		{ 
+			System.out.println("Number is magic");
+		}
+		else
+		{
+			System.out.println("Number is not magic");
+		}
+	}
 	
 	
 

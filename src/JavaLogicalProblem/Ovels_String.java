@@ -5,7 +5,7 @@ import java.util.Scanner;
 import org.testng.annotations.Test;
 
 public class Ovels_String {
-	@Test(priority=0)
+	//@Test(priority=0)
 	public void test0()
 	{
 		int i=0;
@@ -33,6 +33,23 @@ public class Ovels_String {
 			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
 			{
 				count++ ;
+				System.out.println(" "+c+" ");
+			}
+		}
+		System.out.println(count);
+	}
+	@Test(priority=2)
+	public void test2()
+	{
+		String s=" Hi Hello How are you";
+		int count =0;
+		s=s.toLowerCase();
+		for(int i=0;i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+			{
+				count++;
 				System.out.println(" "+c+" ");
 			}
 		}

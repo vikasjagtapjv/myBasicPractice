@@ -54,7 +54,7 @@ public class PrimaeNumber {
 		int count=0;
 		for(int i=2;i<=num-1;i++)
 		{
-			if(num%i==0)
+			if(num%i==0)//1,1,3,2,1
 			{
 				count=count+1;
 			}

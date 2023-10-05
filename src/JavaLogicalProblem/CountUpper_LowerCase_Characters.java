@@ -69,5 +69,26 @@ public class CountUpper_LowerCase_Characters {
 		System.out.println(Lower);
 		System.out.println(Upper);
 	}
+	@Test(priority=3)
+	public void test3()
+	{
+		String s ="HI hellO HoW arE yOu";
+		int lower=0;
+		int upper=0;
+		for (int i=0;i<s.length();i++)
+		{
+			char c=s.charAt(i);
+			if(Character.isUpperCase(c))
+			{
+				upper++;
+			}
+			else if(Character.isLowerCase(c))
+			{
+				lower++;
+			}
+		}
+		System.out.println("upper is "+upper);
+		System.out.println("lower is "+lower);
+	}
 
 }

@@ -96,6 +96,53 @@ public class CountEven_And_OddDigits_InNumber {
 		System.out.println(evenName);
 		System.out.println(oddNumber);
 	}
+	@Test(priority=4)
+	public void test4()
+	{
+		int num=123456789;
+		int evenNum=0;
+		int oddNum=0;
+		while(num>0)
+		{
+			int reminder=num%10;
+			if(reminder%2==0)
+			{
+				evenNum++;
+			}
+			else
+			{
+				oddNum++;
+			}
+			num=num/10;
+		}
+		System.out.println(evenNum);
+		System.out.println(oddNum);
+	}
+	@Test(priority=5)
+	public void test5()
+	{
+		int num=12345739;
+		int reminder=0;
+		int even=0;
+		int odd=0;
+		while(num>0)
+		{
+			reminder=num%10;
+			num=num/10;
+			if(reminder%2==0)
+			{
+				even++;
+			}
+			else
+			{
+				odd++;
+			}
+				
+		}
+		System.out.println(even+" count of even number");
+		System.out.println(odd+" count of odd number");
+		
+	}
 	
 	
 	

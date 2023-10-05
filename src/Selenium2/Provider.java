@@ -20,7 +20,7 @@ public class Provider {
 	@BeforeMethod
 	public void setUp() {
 	//	WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Vikas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","F:\\Drivers\\chromedriver-win32\\chromedriver.exe");
 
 		 driver=new ChromeDriver();
 		 driver.manage().window().maximize();

@@ -233,6 +233,47 @@ public class DemoPalindrome {
 			System.out.println(orgNum+" Not palindrome10");
 		}
 	}
+	@Test(priority=11)
+	public void test11()
+	{
+		int num=121;
+		int orgNum=num;
+		int reverse=0;
+		while(num>0)
+		{
+			reverse=reverse*10+num%10;
+			num=num/10;
+		}
+		if(orgNum==reverse)
+		{
+			System.out.println(orgNum+ " its palindrome number test11");
+		}
+		else
+		{
+			System.out.println(orgNum+" its not palindrome number");
+		}
+	}
+	@Test(priority=12)
+	public void test12()
+	{
+		int num=121;
+		int orgNum=num;
+		int reverse=0;
+		while(num>0)
+		{
+			reverse=reverse*10+num%10;
+			num=num/10;
+			
+		}
+		if(orgNum==reverse)
+		{
+			System.out.println(orgNum+" Palindrome 12th test");
+		}
+		else
+		{
+			System.out.println(orgNum+ " not palindrome");
+		}
+	}
 	
 	
 	

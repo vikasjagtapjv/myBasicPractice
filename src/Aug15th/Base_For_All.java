@@ -4,11 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 //import io.github.bonigarcia.wdm.WebDriverManager;
@@ -16,6 +12,9 @@ import org.testng.annotations.BeforeClass;
 public class Base_For_All {
 	public static WebDriver driver;
 	public ExtentReport report;
+	//
+	
+	
 	
 	@BeforeClass
 	public void setup() {

@@ -1,9 +1,10 @@
 package Abstract;
 
 public abstract class Bike {
-	Bike()
+	Bike(int a)
 	{
-		System.out.println("Bike class is created");
+		
+		System.out.println("Bike class is created "+ a);
 	}
 
 	//Abstract method created
@@ -14,6 +15,14 @@ public abstract class Bike {
 	}
 	public void stop() {
 		System.out.println("Bike Stopped");
+	}
+	private void mediam()
+	{
+		System.out.println("Speed should be mediam");
+	}
+	public void get()
+	{
+		mediam();
 	}
 	
 }

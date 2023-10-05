@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaLogicalProblem.Remove_Duplicates_From_String">
+      <class name="JavaLogicalProblem.ArmstrongNumber">
         <methods>
-          <include name="test10"/>
+          <include name="magic"/>
         </methods>
-      </class> <!-- JavaLogicalProblem.Remove_Duplicates_From_String -->
+      </class> <!-- JavaLogicalProblem.ArmstrongNumber -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

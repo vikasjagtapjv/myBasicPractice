@@ -36,5 +36,13 @@ public class Array_to_String {
 		System.out.println(Arrays.toString(a));
 		
 	}
+	@Test(priority=4)
+	public void test4()
+	{
+		int a[]= {11,3,4,5,6,12,44,34,0};
+		System.out.println(Arrays.toString(a));
+		Arrays.parallelSort(a);
+		System.out.println(Arrays.toString(a));
+	}
 
 }

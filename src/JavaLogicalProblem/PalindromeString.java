@@ -111,5 +111,27 @@ public class PalindromeString {
 			 System.out.println(orgString + " String test4 is not palindrome");
 		 }
 	}
+	
+	@Test(priority=5)
+	public void test5()
+	{
+		 String s="Hi hello how are you";
+		 String orgString=s;
+		 String rev="";
+		 for(int i=0;i<s.length();i++)
+			 
+		 {
+			 char c=s.charAt(i);
+			 rev=c+rev;
+		 }
+		 if(orgString.equals(rev))
+		 {
+			 System.out.println(orgString+"String is palindrome");
+		 }
+		 else
+		 {
+			 System.out.println(orgString+" String is not palindrome");
+		 }
+	}
 
 }

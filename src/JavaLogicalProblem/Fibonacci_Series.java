@@ -97,5 +97,19 @@ public class Fibonacci_Series {
 			n2=sum;
 		}
 	}
+	@Test(priority=6)
+	public void test6() {
+		int n1=0;
+		int n2=1;
+		int sum=0;
+		System.out.println(n1+" "+n2);
+		for (int i=2;i<=10;i++)
+		{
+			sum=n1+n2;
+			System.out.println(" "+sum);
+			n1=n2;
+			n2=sum;
+		}
+	}
 
 }
