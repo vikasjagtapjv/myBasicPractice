@@ -22,7 +22,7 @@ public class Base_For_All {
 				"F:\\Drivers\\chromedriver-win32\\chromedriver.exe");
 	
 		driver=new ChromeDriver();//this is the upcasting
-			driver.manage().window().maximize();//this is the example of method chaining
+			//driver.manage().window().maximize();//this is the example of method chaining
 			//whenever we have non static member we to create a object in this way we have to 
 			/*
 			 * to create multiple objects to avoid this we can execute constructor of that 

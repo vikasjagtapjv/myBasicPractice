@@ -328,6 +328,29 @@ public class ArmstrongNumber {
 			System.out.println("Number is not magic");
 		}
 	}
+	@Test(priority=15)
+	public void text15()
+	{
+		int num=153;
+		int orgNum=num;
+		int reverse=0;
+		int reminder;
+		while(num>0)
+		{
+			reminder=num%10;
+			reverse=(reminder*reminder*reminder)+reverse;
+			num=num/10;
+			
+		}
+		if(orgNum==reverse)
+		{
+			System.out.println(orgNum+"Its armstromg number of test 15");
+		}
+		else
+		{
+			System.out.println("Its not a armstrong number");
+		}
+	}
 	
 	
 

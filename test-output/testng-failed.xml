@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaLogicalProblem.ArmstrongNumber">
+      <class name="Aug15th.Naukri_Apply">
         <methods>
-          <include name="magic"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- JavaLogicalProblem.ArmstrongNumber -->
+      </class> <!-- Aug15th.Naukri_Apply -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
