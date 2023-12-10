@@ -11,6 +11,11 @@ public class Pyramid {
 			for(k=1;k<=i;k++) {
 				System.out.print("* ");
 			}
+			for(int l=5;l>5;l--)
+			{
+				System.out.println(" ");
+			}
+			 
 			System.out.println();
 		}
 	}

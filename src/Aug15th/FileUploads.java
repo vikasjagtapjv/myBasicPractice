@@ -14,6 +14,7 @@ public class FileUploads extends Base_For_All {
 		element.sendKeys(filePath);
 		WebElement clicks=driver.findElement(By.cssSelector("input#file-submit"));
 		clicks.click();
+		
 	}
 
 }

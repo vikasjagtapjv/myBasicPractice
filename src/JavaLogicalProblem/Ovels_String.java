@@ -32,7 +32,7 @@ public class Ovels_String {
 			char c=s.charAt(i);
 			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
 			{
-				count++ ;
+				count++;
 				System.out.println(" "+c+" ");
 			}
 		}
@@ -43,6 +43,7 @@ public class Ovels_String {
 	{
 		String s=" Hi Hello How are you";
 		int count =0;
+		
 		s=s.toLowerCase();
 		for(int i=0;i<s.length();i++)
 		{

@@ -65,9 +65,31 @@ public class PrimaeNumber {
 		}
 		else
 		{
-			System.out.println("Its not a prime number");
+			System.out.println("Its prime number");
 		}
 	}
+	@Test(priority=3)
+	public void test3()
+	{
+		int num=7;
+		int count =0;
+		for (int i=2;i<num-1;i++)
+		{
+			if(num%i==0)
+			{
+				count=count+1;
+			}
+		}
+		if(count>0)
+		{
+			System.out.println("it not a Prime number");
+		}
+		else
+		{
+			System.out.println("Its prime Number test3");
+		}
+	}
+	
 	
 
 }
